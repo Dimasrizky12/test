@@ -1,0 +1,22 @@
+body{
+	overflow-y: hidden;
+}
+.texa {
+    background-color: #2ecc71;
+    margin-top: 16pt;
+    padding: 14pt;
+    font-size: 20pt;
+    color: white;
+    border-radius: 4px;
+}
+.post_tab{
+	margin: 0 auto !important;
+    float: none !important;
+    margin-top: 25pt !important;
+}
+.zzz{
+	background-image: url(assets/bd3.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}

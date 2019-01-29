@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>VALIDASI FORM</title>
+	<script>
+		function kirim(){
+ 
+			var user = document.getElementById('username').value;
+			var pass = document.getElementById('password').value;
+ 
+			if ( user == ""){
+			 return alert('Username tidak boleh kosong');
+			}
+			if ( pass == "") {
+				return alert('Password tidak boleh kosong');
+			}
+ 
+		}
+	</script>
+</head>
+<body>
+<form action="">
+			USERNAME : <br/>		
+		<input type="text" pattern="[a-z]" id="username" maxlength="8" ><br/>
+			PASSWORD : <br/>
+		<input type="password" id="password" maxlength="8" ><br/><br/>
+		<input type="submit" value="LOGIN" onclick="kirim()">
+	</form>
+</body>
+</html>
